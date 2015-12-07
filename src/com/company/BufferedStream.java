@@ -2,7 +2,7 @@ package com.company;
 
 import java.io.*;
 
-public class BufferedInput {
+public class BufferedStream {
 
     public static void main(String[] args) throws IOException {
 		long start = System.currentTimeMillis();
@@ -11,6 +11,7 @@ public class BufferedInput {
 				OutputStream outputStream = new BufferedOutputStream(new FileOutputStream("/Users/joke/Downloads/xxxx" + i + ".xlsx"))) {
 				int data;
 				while ((data = inputStream.read()) != -1) {
+
 					outputStream.write(data);
 				}
 			}

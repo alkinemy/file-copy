@@ -2,7 +2,7 @@ package com.company;
 
 import java.io.*;
 
-public class UserBufferInput {
+public class ManualBufferedStream {
 
     public static void main(String[] args) throws IOException {
 		long start = System.currentTimeMillis();
