@@ -2,7 +2,7 @@ package com.company;
 
 import java.io.*;
 
-public class Main {
+public class BufferedInput {
 
     public static void main(String[] args) throws IOException {
 		long start = System.currentTimeMillis();
